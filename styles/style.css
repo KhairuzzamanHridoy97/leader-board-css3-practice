@@ -85,6 +85,11 @@ hr{
 }
 
 /* ### Courses Style ### */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-column-gap: 30px;
+}
 
 .course .course-banner img{
     width: 224px;
@@ -92,6 +97,8 @@ hr{
 }
 .course-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .fa-star.filled{
     color: #ffc014;
@@ -99,4 +106,5 @@ hr{
 .fa-star.empty{
     color:#aeaeae;
 }
+
 
